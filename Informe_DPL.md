@@ -66,4 +66,16 @@ Una vez clonado alu2 se encargo de crear una nueva rama custom-text y modificar�
 
 ![](imagenes-informe/alu2/crear_rama_custom_text.png)
 
+Una vez creada esta nueva rama alu2 envio un PR a alu1. Esto es una solicitud de incorporar cambios permite comentar a otros, en este caso a alu1, acerca de los cambios que has insertado en una rama de un repositorio en GitHub. Una vez que se abre una solicitud de incorporación de cambios, puedes debatir y revisar los posibles cambios con los colaboradores y agregar confirmaciones de seguimiento antes de que los cambios se fusionen en la rama base, esto es lo que realizaremos en los siguientes pasos.
+
+![](imagenes-informe/alu2/crear_pull_request.png)
+
+Ahora alu1 deberá probar este PR y propondrá una serie de cambios.
+
+![](imagenes-informe/alu1/git-remote-fetch.png)
+
+
+
+
+
 
