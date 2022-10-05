@@ -72,6 +72,13 @@ Una vez creada esta nueva rama alu2 envio un PR a alu1. Esto es una solicitud de
 
 Ahora alu1 deberá probar este PR y propondrá una serie de cambios.
 
+![](imagenes-informe/alu1/git-remote-fetch.png)
+
+![](imagenes-informe/alu1/git-checkout-fork.png)
+
+![](imagenes-informe/alu1/git-push-custom-text.png)
+
+![](imagenes-informe/alu1/git-pull.png)
 Tras los cambios iniciales de alu1 y las conversaciones entre los dos alu, alu2 se encargo de realizar los ultimos cambios, primero hace un pull de los cambios realizados por alu1 luego lo sube a su main y hace un merge de los cambios.
 
 ![](imagenes-informe/alu2/git_fetch_pull_cambios_jesus.png)
@@ -91,15 +98,6 @@ Y finalmente el Merge de alu1
 
 
 
-![](imagenes-informe/alu1/git-remote-fetch.png)
-
-![](imagenes-informe/alu1/git-checkout-fork.png)
-
-![](imagenes-informe/alu1/git-push-custom-text.png)
-
-![](imagenes-informe/alu1/git-pull.png)
-
-
 Ahora alu1 cambiara la linea 10 en el cover.css y hara un commit en local
 ![](imagenes-informe/alu1/apartado12.png)
 
@@ -108,13 +106,31 @@ Despues alu2 creara una nueva rama y y cambiara el cover.css
 Se crea igual que hemo hecho con anterioridad.
 
 Ahora para visualizar este posible conflicto ya que tenemos cambios que chocan entre los dos, alu 1 analizara y decidira la solución, vemos que el conflicto aparece en cover.css.
+
 ![](imagenes-informe/alu1/merge-conflict.png)
 
-Aqui alu1 se va a encargar de resolver el problema en este caso es muy facil de solucionar ya que es solo una linea de código con lo que basta con quedarte con una de las dos opciones, a continuación vemos que se han corregido los problemas
+Aqui alu1 se va a encargar de resolver el problema en este caso es muy facil de solucionar ya que es solo una linea de código con lo que basta con quedarte con una de las dos opciones, a continuación vemos que se han corregido los problemas.
+
 ![](imagenes-informe/alu1/git-conflic.type.png)
 
 Hacemos git merge.
 ![](imagenes-informe/alu1/git-conflict-resolve.png)
+
+Ahora alu1 etiqueta esta versión como v0.1.0 y hara un release
+
+Creamos la etiqueta de la version con:
+
+![](imagenes-informe/alu1/tag1.png)
+
+Y la subimos al main con:
+
+![](imagenes-informe/alu1/tag2.png)
+
+Ahora para hacer el release vamos al repositorio en github y pulsamos en tags y en crear un nuevo release, tal y como se ve en la imagen:
+
+![](imagenes-informe/alu1/release.png)
+
+Puedes ver el release [aquí](https://github.com/JesusSosaMorales/git-work/releases/tag/v0.1.0)
 
 
 
