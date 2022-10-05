@@ -74,6 +74,11 @@ Ahora alu1 deberá probar este PR y propondrá una serie de cambios.
 
 ![](imagenes-informe/alu1/git-remote-fetch.png)
 
+![](imagenes-informe/alu1/git-checkout-fork.png)
+
+![](imagenes-informe/alu1/git-push-custom-text.png)
+
+
 
 
 
