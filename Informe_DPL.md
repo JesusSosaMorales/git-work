@@ -72,11 +72,38 @@ Una vez creada esta nueva rama alu2 envio un PR a alu1. Esto es una solicitud de
 
 Ahora alu1 deberá probar este PR y propondrá una serie de cambios.
 
+Tras los cambios iniciales de alu1 y las conversaciones entre los dos alu, alu2 se encargo de realizar los ultimos cambios, primero hace un pull de los cambios realizados por alu1 luego lo sube a su main y hace un merge de los cambios.
+
+![](imagenes-informe/alu2/git_fetch_pull_cambios_jesus.png)
+
+![](imagenes-informe/alu2/subir_cambios_origin.png)
+
+![](imagenes-informe/alu2/merge_customtext_main.png)
+
+La conversacion entera se puede ver en :
+
+[enlace en línea](https://github.com/JesusSosaMorales/git-work/pull/1)
+
+Y finalmente el Merge de alu1
+
+![](imagenes-informe/al1/merge_pr_cedric_customtext.png)
+
+
+
+
 ![](imagenes-informe/alu1/git-remote-fetch.png)
 
 ![](imagenes-informe/alu1/git-checkout-fork.png)
 
 ![](imagenes-informe/alu1/git-push-custom-text.png)
+
+![](imagenes-informe/alu1/git-pull.png)
+
+
+Ahora alu1 cambiara la linea 10 en el cover.css y hara un commit en local
+![](imagenes-informe/alu1/apartado12.png)
+
+Despues alu2 creara una nueva rama y y cambiara el cover.css
 
 
 
