@@ -82,11 +82,11 @@ Tras los cambios iniciales de alu1 y las conversaciones entre los dos alu, alu2 
 
 La conversacion entera se puede ver en :
 
-[enlace en línea](https://github.com/JesusSosaMorales/git-work/pull/1)
+[Conversación PR](https://github.com/JesusSosaMorales/git-work/pull/1)
 
 Y finalmente el Merge de alu1
 
-![](imagenes-informe/al1/merge_pr_cedric_customtext.png)
+![](imagenes-informe/alu1/merge_pr_cedric_customtext.png)
 
 
 
