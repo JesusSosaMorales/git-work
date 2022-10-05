@@ -72,13 +72,17 @@ Una vez creada esta nueva rama alu2 envio un PR a alu1. Esto es una solicitud de
 
 Ahora alu1 deberá probar este PR y propondrá una serie de cambios.
 
+Con el comando git remote nos permite crear, ver y eliminar conexiones con otros repositorios, en este caso alu1 esta estableciendo una conexión con la rama del PR de alu2.
+
 ![](imagenes-informe/alu1/git-remote-fetch.png)
+
+Con git checkout permite desplazarnos entre las ramas creadas por git branch.
 
 ![](imagenes-informe/alu1/git-checkout-fork.png)
 
+Con git push subimos los cambios que he realizado al PR de alu2
 ![](imagenes-informe/alu1/git-push-custom-text.png)
 
-![](imagenes-informe/alu1/git-pull.png)
 Tras los cambios iniciales de alu1 y las conversaciones entre los dos alu, alu2 se encargo de realizar los ultimos cambios, primero hace un pull de los cambios realizados por alu1 luego lo sube a su main y hace un merge de los cambios.
 
 ![](imagenes-informe/alu2/git_fetch_pull_cambios_jesus.png)
@@ -93,6 +97,7 @@ La conversacion entera se puede ver en :
 
 Y finalmente el Merge de alu1
 
+![](imagenes-informe/alu1/git-pull.png)
 ![](imagenes-informe/alu1/merge_pr_cedric_customtext.png)
 
 
