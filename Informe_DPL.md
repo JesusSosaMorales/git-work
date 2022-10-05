@@ -138,6 +138,8 @@ Ahora para hacer el release vamos al repositorio en github y pulsamos en tags y 
 
 Puedes ver el release [aquí](https://github.com/JesusSosaMorales/git-work/releases/tag/v0.1.0)
 
+Además puedes ver el PR de esta segunda rama [aquí](https://github.com/JesusSosaMorales/git-work/pull/2)
+
 
 
 
