@@ -87,6 +87,7 @@ Tras los cambios iniciales de alu1 y las conversaciones entre los dos alu, alu2 
 
 ![](imagenes-informe/alu2/git_fetch_pull_cambios_jesus.png)
 
+Con git Switch cambiamos entre ramas de nuestro repositorio para subir los cambios en la rama correcta.
 ![](imagenes-informe/alu2/subir_cambios_origin.png)
 
 ![](imagenes-informe/alu2/merge_customtext_main.png)
