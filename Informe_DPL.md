@@ -1,4 +1,4 @@
-#Informe tarea de git
+# Informe tarea de git
 ## Cedric y Jesus
 
 ---
