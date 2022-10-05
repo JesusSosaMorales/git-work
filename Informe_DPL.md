@@ -32,4 +32,38 @@ La tarea fue planteada para dos alumnos, las tareas del alumno 1 fueron realizad
 
 Empezamos creando el repositorio publico en git hub, para ello nos dirigimos a nuestra pagina de git, nos metemos en nuestro repositorios y pulsamos crear uno nuevo, en este caso le añadiremos un README.md y una Licencia de MIT
 
+![](imagenes-informe/alu1/crearRepositorio1.PNG)
+![](imagenes-informe/alu1/crearRepositorio2.PNG)
+
+Lo siguiente sera clonar el repositorio y añadir los ficheros solicitados.
+
+Existen tres formas de clonar un repositorio para ello  nos dirigimos a GitHub en la página principal del repositorio. Encima de la lista de archivos, hacemos  clic en code:
+
+- Para clonar el repositorio con HTTPS, en «HTTPS» haz clic en el icono de portapapeles.
+- Para clonar el repositorio mediante una clave SSH, incluido un certificado emitido por la entidad de certificación SSH de la organización, haga clic en Usar SSH y luego en el icono de portapapeles.
+- Para clonar un repositorio mediante GitHub CLI, haz clic en GitHub CLI y, después, haz clic en .
+
+En nuestro caso lo ralizamos mediante HTTPS con el comando git clone
+![](imagenes-informe/alu1/clonar.PNG)
+
+Subimos los cambios con:
+- git add .
+- git commit -m "primer commit"
+- git push
+- Además con git status podemos ver si se ha realizado correctamente.
+
+En el siguiente apartado el alu2 debe realizar un fork desde su propia cuenta. Esto no es nada mas que realizar una bifurcación, una copia del repositorio de alu1. Bifurcar un repositorio te permite experimentar libremente con cambios sin afectar el proyecto original.
+
+![](imagenes-informe/alu2/fork_repositorio.png)
+
+Una vez realizado el fork, alu2 clonara su fork del repo:
+
+![](imagenes-informe/alu2/clone_fork.png)
+
+
+Una vez clonado alu2 se encargo de crear una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup, esta startup la llamamos Coffee to go!.
+
+
+![](imagenes-informe/alu2/crear_rama_custom_text.png)
+
 
