@@ -105,6 +105,17 @@ Ahora alu1 cambiara la linea 10 en el cover.css y hara un commit en local
 
 Despues alu2 creara una nueva rama y y cambiara el cover.css
 
+Se crea igual que hemo hecho con anterioridad.
+
+Ahora para visualizar este posible conflicto ya que tenemos cambios que chocan entre los dos, alu 1 analizara y decidira la solución, vemos que el conflicto aparece en cover.css.
+![](imagenes-informe/alu1/merge-conflict.png)
+
+Aqui alu1 se va a encargar de resolver el problema en este caso es muy facil de solucionar ya que es solo una linea de código con lo que basta con quedarte con una de las dos opciones, a continuación vemos que se han corregido los problemas
+![](imagenes-informe/alu1/git-conflic.type.png)
+
+Hacemos git merge.
+![](imagenes-informe/alu1/git-conflict-resolve.png)
+
 
 
 
